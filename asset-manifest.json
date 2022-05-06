@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Neumorphic-Calculator/static/css/main.c9416c62.css",
+    "main.js": "/Neumorphic-Calculator/static/js/main.fb3191a5.js",
+    "static/js/787.226188c3.chunk.js": "/Neumorphic-Calculator/static/js/787.226188c3.chunk.js",
+    "index.html": "/Neumorphic-Calculator/index.html",
+    "main.c9416c62.css.map": "/Neumorphic-Calculator/static/css/main.c9416c62.css.map",
+    "main.fb3191a5.js.map": "/Neumorphic-Calculator/static/js/main.fb3191a5.js.map",
+    "787.226188c3.chunk.js.map": "/Neumorphic-Calculator/static/js/787.226188c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9416c62.css",
+    "static/js/main.fb3191a5.js"
+  ]
+}
