@@ -1,0 +1,117 @@
+.calculator {
+  height: 650px;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 20px;
+  border-style: ridge;
+  background-color: black;
+  box-shadow: -6px -6px 9px 0px white, 1px 6px 7px 15px rgba(184, 175, 175, 0.4);;
+  display: flex;
+  flex-direction: column;
+  border: 1px;
+  justify-content: flex-end;
+}
+
+.calculator__btns {
+  margin-left: 0.5rem;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: white;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.calculator__btns button {
+  border: 0;
+  outline: 0;
+  border-radius: 15px;
+  box-shadow: -6px -6px 9px 0px white, 6px 7px 15px rgba(184, 175, 175, 0.4);
+  font-size: 2rem;
+  font-weight: 540;
+  background-color: transparent;
+  color: #3e6f85;
+}
+
+.calculator__btns button:last-child {
+  border-radius: 20px;
+  box-shadow: -6px -6px 9px 0px white, 6px 7px 15px rgba(184, 175, 175, 0.4);
+  color: var(--txt-white);
+  background-image: linear-gradient(312deg, #0df1de, #24b5f8);
+}
+
+.calculator__btns .btn__op {
+  color: var(--calc-btn-color);
+}
+
+.calculator__btns .btn__ops {
+  color: rgb(106, 103, 103);
+}
+
+.calculator__result {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+.calculator__result__exp {
+  font-size: 3.5rem;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 2rem;
+  transform-origin: right bottom;
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.calculator__result__exp:last-child {
+  position: absolute;
+  right: 0;
+}
+
+.calculator__result__exp span {
+  display: inline-block;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+@media only screen and (max-width: 800px) {
+  .calculator {
+      width: 100%;
+      height: 100vh;
+      border-radius: 0;
+  }
+}
+.sahitya{
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.bar{
+  -webkit-appearance: none;
+  -mox-appearance: none;
+  appearance: none;
+  width: 100px;
+  margin-left: 5.6rem;
+  height: 5px;
+  /* padding: 1px 1px; */
+  border: 100;
+  border-style: 0px ridge rgb(246, 242, 242);
+   border-style: ridge;
+  /* border-style: outset;  */
+  border-bottom-color: inset 6px 9px 9px 6px rgba(255,255,255,1), outset 12px 12px 12px rgba(237, 234, 234, 0.4);
+  border-right-color: inset 6px 9px 9px 6px rgba(255,255,255,1), outset 12px 12px 12px rgba(233, 229, 229, 0.4);
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  box-shadow: inset -6px -6px 9px 0px rgb(253, 244, 244), inset 6px 6px 6px rgba(251, 245, 245, 0.4);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
